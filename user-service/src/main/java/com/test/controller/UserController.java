@@ -14,7 +14,7 @@ public class UserController {
     UserService service;
 
     @RequestMapping("/user/{uid}")
-    public User findUserById(@PathVariable("uid") int uid){
+    public User getUserById(@PathVariable("uid") int uid){
         return service.getUserById(uid);
     }
 }
