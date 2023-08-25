@@ -6,3 +6,14 @@ spring:
     username: root
     password: DB990708
     driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: bookservice
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820
+    sentinel:
+      transport:
+        dashboard: localhost:8858
+

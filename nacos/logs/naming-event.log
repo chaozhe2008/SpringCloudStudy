@@ -1,0 +1,192 @@
+2023-08-24 15:23:06,425 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.18.69.222:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 15:23:06,433 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 10.18.69.222:8101_true,
+
+2023-08-24 15:24:52,158 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.18.69.222:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 15:24:52,158 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 10.18.69.222:8201_true,
+
+2023-08-24 15:25:32,627 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.18.69.222:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 15:25:32,628 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 10.18.69.222:8301_true,
+
+2023-08-24 15:33:47,078 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.18.69.222:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 15:33:47,079 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 
+
+2023-08-24 15:33:59,044 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.18.69.222:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 15:33:59,044 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 10.18.69.222:8201_true,
+
+2023-08-24 15:41:16,216 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.18.69.222:8102:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 15:41:16,216 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 10.18.69.222:8102_true,10.18.69.222:8101_true,
+
+2023-08-24 15:47:31,776 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.18.69.222:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 15:47:31,776 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 10.18.69.222:8102_true,
+
+2023-08-24 15:47:31,798 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.18.69.222:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 15:47:31,798 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 
+
+2023-08-24 15:47:31,821 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.18.69.222:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 15:47:31,821 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 
+
+2023-08-24 15:47:31,844 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.18.69.222:8102:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 15:47:31,844 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 
+
+2023-08-24 15:50:53,089 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.18.69.222:8102:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 15:50:53,089 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 10.18.69.222:8102_true,
+
+2023-08-24 15:50:53,913 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.18.69.222:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 15:50:53,913 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 10.18.69.222:8102_true,10.18.69.222:8101_true,
+
+2023-08-24 15:50:54,841 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: cluster01, new ips size: 1, content: [10.18.69.222:8301:unknown:cluster01_1.0_true_false_cluster01]
+
+2023-08-24 15:50:54,841 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 10.18.69.222:8301_true,
+
+2023-08-24 15:50:55,961 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.18.69.222:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 15:50:55,961 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 10.18.69.222:8201_true,
+
+2023-08-24 15:50:56,557 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: cluster02, new ips size: 1, content: [10.18.69.222:8302:unknown:cluster02_1.0_true_false_cluster02]
+
+2023-08-24 15:50:56,558 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 10.18.69.222:8302_true,10.18.69.222:8301_true,
+
+2023-08-24 15:55:46,622 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: cluster02, dead ips size: 1, content: [10.18.69.222:8302:unknown:cluster02_1.0_true_false_cluster02]
+
+2023-08-24 15:55:46,623 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 10.18.69.222:8301_true,
+
+2023-08-24 15:56:20,952 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.18.69.222:8102:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 15:56:20,952 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 10.18.69.222:8101_true,
+
+2023-08-24 15:56:20,975 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.18.69.222:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 15:56:20,975 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 
+
+2023-08-24 15:56:21,000 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: cluster01, dead ips size: 1, content: [10.18.69.222:8301:unknown:cluster01_1.0_true_false_cluster01]
+
+2023-08-24 15:56:21,001 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 
+
+2023-08-24 15:56:21,025 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.18.69.222:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 15:56:21,025 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 
+
+2023-08-24 15:56:23,085 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: cluster02, new ips size: 1, content: [10.18.69.222:8302:unknown:cluster02_1.0_true_false_cluster02]
+
+2023-08-24 15:56:23,085 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 10.18.69.222:8302_true,
+
+2023-08-24 15:56:30,201 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: cluster02, new ips size: 1, content: [10.18.69.222:8102:unknown:cluster02_1.0_true_false_cluster02]
+
+2023-08-24 15:56:30,201 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 10.18.69.222:8102_true,
+
+2023-08-24 15:56:31,703 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.18.69.222:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 15:56:31,703 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 10.18.69.222:8201_true,
+
+2023-08-24 15:56:32,530 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: cluster01, new ips size: 1, content: [10.18.69.222:8101:unknown:cluster01_1.0_true_false_cluster01]
+
+2023-08-24 15:56:32,530 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 10.18.69.222:8102_true,10.18.69.222:8101_true,
+
+2023-08-24 15:56:33,358 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: cluster01, new ips size: 1, content: [10.18.69.222:8301:unknown:cluster01_1.0_true_false_cluster01]
+
+2023-08-24 15:56:33,358 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 10.18.69.222:8302_true,10.18.69.222:8301_true,
+
+2023-08-24 16:13:49,503 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: cluster01, dead ips size: 1, content: [10.18.69.222:8101:unknown:cluster01_1.0_true_false_cluster01]
+
+2023-08-24 16:13:49,505 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 10.18.69.222:8102_true,
+
+2023-08-24 16:13:49,524 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.18.69.222:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 16:13:49,524 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 
+
+2023-08-24 16:13:49,547 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: cluster01, dead ips size: 1, content: [10.18.69.222:8301:unknown:cluster01_1.0_true_false_cluster01]
+
+2023-08-24 16:13:49,547 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 10.18.69.222:8302_true,
+
+2023-08-24 16:13:49,572 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: cluster02, dead ips size: 1, content: [10.18.69.222:8102:unknown:cluster02_1.0_true_false_cluster02]
+
+2023-08-24 16:13:49,572 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 
+
+2023-08-24 16:13:49,597 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: cluster02, dead ips size: 1, content: [10.18.69.222:8302:unknown:cluster02_1.0_true_false_cluster02]
+
+2023-08-24 16:13:49,597 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 
+
+2023-08-24 16:14:09,161 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: cluster02, new ips size: 1, content: [10.18.69.222:8102:unknown:cluster02_1.0_true_false_cluster02]
+
+2023-08-24 16:14:09,161 INFO [IP-UPDATED] namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820, service: DEFAULT_GROUP@@bookservice, ips: 10.18.69.222:8102_true,
+
+2023-08-24 16:14:10,126 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: cluster01, new ips size: 1, content: [10.18.69.222:8101:unknown:cluster01_1.0_true_false_cluster01]
+
+2023-08-24 16:14:10,126 INFO [IP-UPDATED] namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820, service: DEFAULT_GROUP@@bookservice, ips: 10.18.69.222:8102_true,10.18.69.222:8101_true,
+
+2023-08-24 16:14:11,217 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: cluster02, new ips size: 1, content: [10.18.69.222:8302:unknown:cluster02_1.0_true_false_cluster02]
+
+2023-08-24 16:14:11,217 INFO [IP-UPDATED] namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820, service: DEFAULT_GROUP@@userservice, ips: 10.18.69.222:8302_true,
+
+2023-08-24 16:14:12,298 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: cluster01, new ips size: 1, content: [10.18.69.222:8301:unknown:cluster01_1.0_true_false_cluster01]
+
+2023-08-24 16:14:12,298 INFO [IP-UPDATED] namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820, service: DEFAULT_GROUP@@userservice, ips: 10.18.69.222:8302_true,10.18.69.222:8301_true,
+
+2023-08-24 16:14:13,295 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.18.69.222:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-08-24 16:14:13,295 INFO [IP-UPDATED] namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820, service: DEFAULT_GROUP@@borrowservice, ips: 10.18.69.222:8201_true,
+
+2023-08-24 16:14:13,300 INFO [IP-UPDATED] namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820, service: DEFAULT_GROUP@@borrowservice, ips: 10.18.69.222:8201_true,
+
+2023-08-24 16:14:16,996 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 10.18.69.222:8201@DEFAULT in 1, msg: tcp:ok+
+
+2023-08-24 16:14:20,662 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 10.18.69.222:8201@DEFAULT in 2, msg: tcp:ok+
+
+2023-08-24 16:14:23,417 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.18.69.222:8201@DEFAULT, region: unknown, msg: tcp:ok+
+
+2023-08-24 16:49:31,986 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: cluster02, dead ips size: 1, content: [10.18.69.222:8102:unknown:cluster02_1.0_true_false_cluster02]
+
+2023-08-24 16:49:31,989 INFO [IP-UPDATED] namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820, service: DEFAULT_GROUP@@bookservice, ips: 10.18.69.222:8101_true,
+
+2023-08-24 16:49:31,996 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: cluster01, dead ips size: 1, content: [10.18.69.222:8101:unknown:cluster01_1.0_true_false_cluster01]
+
+2023-08-24 16:49:31,996 INFO [IP-UPDATED] namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820, service: DEFAULT_GROUP@@bookservice, ips: 
+
+2023-08-24 16:49:32,017 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: cluster02, dead ips size: 1, content: [10.18.69.222:8302:unknown:cluster02_1.0_true_false_cluster02]
+
+2023-08-24 16:49:32,017 INFO [IP-UPDATED] namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820, service: DEFAULT_GROUP@@userservice, ips: 10.18.69.222:8301_true,
+
+2023-08-24 16:49:32,056 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: cluster01, dead ips size: 1, content: [10.18.69.222:8301:unknown:cluster01_1.0_true_false_cluster01]
+
+2023-08-24 16:49:32,056 INFO [IP-UPDATED] namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820, service: DEFAULT_GROUP@@userservice, ips: 
+
+2023-08-24 16:49:32,074 INFO [IP-UPDATED] namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820, service: DEFAULT_GROUP@@borrowservice, ips: 10.18.69.222:8201_true,
+
+2023-08-24 16:49:32,364 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid-now: 10.18.69.222:8201@DEFAULT, region: unknown, msg: tcp:unable2connect:Connection refused
+
+2023-08-24 16:49:42,091 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: cluster02, new ips size: 1, content: [10.18.69.222:8102:unknown:cluster02_1.0_true_false_cluster02]
+
+2023-08-24 16:49:42,091 INFO [IP-UPDATED] namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820, service: DEFAULT_GROUP@@bookservice, ips: 10.18.69.222:8102_true,
+
+2023-08-24 16:49:42,924 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: cluster01, new ips size: 1, content: [10.18.69.222:8101:unknown:cluster01_1.0_true_false_cluster01]
+
+2023-08-24 16:49:42,924 INFO [IP-UPDATED] namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820, service: DEFAULT_GROUP@@bookservice, ips: 10.18.69.222:8102_true,10.18.69.222:8101_true,
+
+2023-08-24 16:49:45,128 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: cluster02, new ips size: 1, content: [10.18.69.222:8302:unknown:cluster02_1.0_true_false_cluster02]
+
+2023-08-24 16:49:45,128 INFO [IP-UPDATED] namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820, service: DEFAULT_GROUP@@userservice, ips: 10.18.69.222:8302_true,
+
+2023-08-24 16:49:46,008 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: cluster01, new ips size: 1, content: [10.18.69.222:8301:unknown:cluster01_1.0_true_false_cluster01]
+
+2023-08-24 16:49:46,009 INFO [IP-UPDATED] namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820, service: DEFAULT_GROUP@@userservice, ips: 10.18.69.222:8302_true,10.18.69.222:8301_true,
+
+2023-08-24 16:49:48,579 INFO [IP-UPDATED] namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820, service: DEFAULT_GROUP@@borrowservice, ips: 10.18.69.222:8201_false,
+
+2023-08-24 16:49:49,481 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 10.18.69.222:8201@DEFAULT in 1, msg: tcp:ok+
+
+2023-08-24 16:49:53,521 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 10.18.69.222:8201@DEFAULT in 2, msg: tcp:ok+
+
+2023-08-24 16:49:56,805 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.18.69.222:8201@DEFAULT, region: unknown, msg: tcp:ok+
+
