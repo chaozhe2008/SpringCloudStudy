@@ -13,7 +13,10 @@ spring:
       discovery:
         server-addr: localhost:8848
         namespace: 3a4f4100-b164-4c0e-be3e-49e4e0be6820
-    sentinel:
-      transport:
-        dashboard: localhost:8858
+seata:
+  service:
+    vgroup-mapping:
+      bookservice-seata-service-group: default
+    grouplist:
+      default: localhost:8868
 

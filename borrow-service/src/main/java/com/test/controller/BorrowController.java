@@ -26,6 +26,13 @@ public class BorrowController {
         object.put("success", false); object.put("massage", "Please try later!"); return object;
     }
 
+    @RequestMapping("/borrow/take/{uid}/{bid}")
+    JSONObject borrow(@PathVariable("uid") int uid,
+                      @PathVariable("bid") int bid){
+        service.doBorrow(uid, bid);
+        JSONObject object = new JSONObject(); object.put("code", "200"); object.put("success", false); object.put("message", "借阅成功!"); return object;
+    }
+
     @RequestMapping("/test")
     @SentinelResource(value = "test",
             fallback = "except", //fallback指定出现异常时的替代方案
