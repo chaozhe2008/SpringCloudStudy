@@ -1,8 +1,26 @@
 server:
   port: 8201
 spring:
+  application:
+    name: borrow-service
   datasource:
     url: jdbc:mysql://localhost:3306/library
     username: root
     password: DB990708
     driver-class-name: com.mysql.cj.jdbc.Driver
+  session:
+    # 存储类型修改为redis
+    store-type: redis
+  redis:
+    host: 127.0.0.1
+feign:
+  oauth2:
+#开启Oauth支持，这样就会在请求头中携带Token了
+    enabled: true
+#同时开启负载均衡支持
+    load-balanced: true
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-value: lbwnb
