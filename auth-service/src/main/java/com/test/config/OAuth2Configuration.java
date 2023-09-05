@@ -63,12 +63,8 @@ public class OAuth2Configuration extends AuthorizationServerConfigurerAdapter {
     @Resource
     JwtAccessTokenConverter converter;
 
-
     @Resource
     UserDetailsService service;
-
-
-
 
     private AuthorizationServerTokenServices serverTokenServices(){ //这里对AuthorizationServerTokenServices进行一下配置
         DefaultTokenServices services = new DefaultTokenServices();
