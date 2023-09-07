@@ -21,6 +21,9 @@
         <module>commons</module>
         <module>auth-service</module>
         <module>rabbitmq</module>
+        <module>spring-cloud-stream</module>
+        <module>springcloud-stream-publisher</module>
+        <module>springcloud-stream-consumer</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
@@ -46,6 +49,14 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.23</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-dependencies</artifactId>
+            <version>2021.0.1</version>
+            <type>pom</type>
+            <scope>import</scope>
         </dependency>
 
 

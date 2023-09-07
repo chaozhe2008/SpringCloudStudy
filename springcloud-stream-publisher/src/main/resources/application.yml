@@ -1,0 +1,19 @@
+server:
+  port: 8001
+  spring:
+    cloud:
+      stream:
+        binders: #此处配置要绑定的rabbitmq的服务信息
+          local-server:
+            type: rabbit
+            environment:
+              spring:
+                rabbitmq:
+                  host: 127.0.0.1
+                  port: 5672
+                  username: admin
+                  password: admin
+                  virtual-host: /test
+        bindings:
+          test-out-0:
+            destination: test.exchange

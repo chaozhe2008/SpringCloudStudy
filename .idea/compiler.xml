@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <excludeFromCompile>
-      <directory url="file://$PROJECT_DIR$/user-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
-    </excludeFromCompile>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="auth-service" />
-        <module name="user-service" />
         <module name="book-service" />
+        <module name="borrow-service" />
+        <module name="springcloud-stream-publisher" />
+        <module name="springcloud-stream-consumer" />
+        <module name="user-service" />
         <module name="rabbitmq" />
         <module name="commons" />
-        <module name="borrow-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="18" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="SpringCloudStudy" options="" />
       <module name="auth-service" options="-parameters" />
       <module name="book-service" options="-parameters" />
       <module name="borrow-service" options="-parameters" />
       <module name="commons" options="-parameters" />
       <module name="rabbitmq" options="-parameters" />
+      <module name="springcloud-stream-consumer" options="-parameters" />
+      <module name="springcloud-stream-publisher" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>

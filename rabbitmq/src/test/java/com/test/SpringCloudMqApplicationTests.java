@@ -14,7 +14,6 @@ public class SpringCloudMqApplicationTests {
     @Test
     void publisher() {
     //使用convertAndSend方法一步到位，参数和之前是一样
-    // 最后一个消息本体可以是Object类型，真是大大的方便
         Object res = template.convertSendAndReceive("amq.direct", "q1-key", "Hello World!");
         System.out.println("Feedback:" + res);
     }
